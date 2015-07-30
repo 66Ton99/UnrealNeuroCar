@@ -1,0 +1,919 @@
+﻿[2015.07.30-16.31.20:506][  0]Log file open, 07/30/15 19:31:20
+[2015.07.30-16.31.20:506][  0]LogInit:Display: Running engine for game: MyProject
+[2015.07.30-16.31.20:506][  0]LogInit:Display: RandInit(-1040412311) SRandInit(-1040412311).
+[2015.07.30-16.31.20:506][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.30-16.31.20:506][  0]LogStats: Stats thread started
+[2015.07.30-16.31.20:506][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.30-16.31.20:506][  0]LogInit: API Version: 2579680
+[2015.07.30-16.31.20:506][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.30-16.31.20:506][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.30-16.31.20:506][  0]LogInit: Build Configuration: Development
+[2015.07.30-16.31.20:506][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.30-16.31.20:506][  0]LogInit: Command line: 
+[2015.07.30-16.31.20:506][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.30-16.31.20:506][  0]LogInit: Rocket: 1
+[2015.07.30-16.31.20:521][  0]LogInit: Using libcurl 7.41.0
+[2015.07.30-16.31.20:521][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.30-16.31.20:521][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.30-16.31.20:521][  0]LogInit:  - other features:
+[2015.07.30-16.31.20:521][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.30-16.31.20:521][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.30-16.31.20:521][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.30-16.31.20:521][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.30-16.31.20:521][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.30-16.31.20:521][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.30-16.31.20:521][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.30-16.31.20:521][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.30-16.31.20:521][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.30-16.31.20:521][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.30-16.31.20:533][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-16.31.20:548][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-16.31.20:556][  0]LogInit: Object subsystem initialized
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/N/Documents/GitHub/UnrealNeuroCar/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/N/Documents/GitHub/UnrealNeuroCar/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-16.31.20:557][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/N/Documents/GitHub/UnrealNeuroCar/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-16.31.20:557][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-16.31.20:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-16.31.20:564][  0]LogInit: Computer: CATQUEEN
+[2015.07.30-16.31.20:564][  0]LogInit: User: Kunkku
+[2015.07.30-16.31.20:564][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-16.31.20:564][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2015.07.30-16.31.20:564][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.30-16.31.20:564][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-16.31.20:564][  0]LogMemory: Process Physical Memory: 48.77 MB used, 48.77 MB peak
+[2015.07.30-16.31.20:564][  0]LogMemory: Process Virtual Memory: 22.60 MB used, 22.60 MB peak
+[2015.07.30-16.31.20:564][  0]LogMemory: Physical Memory: 4155.69 MB used, 8112.27 MB total
+[2015.07.30-16.31.20:564][  0]LogMemory: Virtual Memory: 291.96 MB used, 134217728.00 MB total
+[2015.07.30-16.31.20:602][  0]LogTextLocalizationManager: The requested culture ('fi_FI') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.30-16.31.20:832][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.30-16.31.21:340][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.30-16.31.21:340][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.30-16.31.21:355][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M (Feature Level 11_0)
+[2015.07.30-16.31.21:355][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.07.30-16.31.21:357][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.30-16.31.21:357][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.30-16.31.21:357][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-16.31.21:362][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.31.21:362][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.30-16.31.21:363][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.30-16.31.21:379][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-16.31.21:395][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.30-16.31.22:718][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.30-16.31.22:732][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.30-16.31.22:747][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.30-16.31.22:761][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.30-16.31.22:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.30-16.31.22:788][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.30-16.31.22:800][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.30-16.31.22:812][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.30-16.31.22:824][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.30-16.31.22:836][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.30-16.31.22:848][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.30-16.31.22:860][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.30-16.31.22:908][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.30-16.31.22:920][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.30-16.31.22:931][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.30-16.31.22:946][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.30-16.31.22:946][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-16.31.23:149][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/N/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/N/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.30-16.31.23:213][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.30-16.31.23:363][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-16.31.23:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/N/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-16.31.23:585][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-16.31.23:664][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-16.31.23:664][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-16.31.23:691][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-16.31.23:691][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-16.31.23:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-16.31.24:951][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-16.31.25:303][  0]SourceControl: Info Source control is disabled
+[2015.07.30-16.31.25:395][  0]SourceControl: Info Source control is disabled
+[2015.07.30-16.31.25:405][  0]SourceControl: Info Source control is disabled
+[2015.07.30-16.31.25:414][  0]SourceControl: Info Source control is disabled
+[2015.07.30-16.31.25:627][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.30-16.31.25:627][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.07.30-16.31.25:699][  0]LogEngine: Initializing Engine...
+[2015.07.30-16.31.25:701][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.30-16.31.25:702][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.30-16.31.25:856][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-16.31.25:859][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.30-16.31.25:878][  0]LogInit: FAudioDevice initialized.
+[2015.07.30-16.31.25:909][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/N/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-16.31.25:914][  0]LogInit: Texture streaming: Disabled
+[2015.07.30-16.31.25:938][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-16.31.25:938][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.30-16.31.25:938][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f7a881bb45b3b8b4de3a738428d93779|95bf3da099894b978f8fd396e7ebf43c|13d7fc3b-9b02-412c-b137-1d7c802280ff
+[2015.07.30-16.31.25:938][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.30-16.31.25:995][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-16.31.26:156][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-16.31.26:200][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.07.30-16.31.26:200][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-16.31.27:126][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.30-16.31.27:127][  0]LogConsoleResponse:Display: 
+[2015.07.30-16.31.27:347][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-16.31.27:571][  0]SourceControl: Info Source control is disabled
+[2015.07.30-16.31.27:571][  0]Cmd: MAP LOAD FILE="../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-16.31.27:624][  0]LightingResults: New page: Lighting Build
+[2015.07.30-16.31.27:639][  0]MapCheck: New page: Map Check
+[2015.07.30-16.31.27:639][  0]LightingResults: New page: Lighting Build
+[2015.07.30-16.31.27:659][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F0AB34B80
+[2015.07.30-16.31.28:826][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-16.31.29:386][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.07.30-16.31.29:386][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.07.30-16.31.29:393][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0010.27] Compile of VehicleBlueprint successful, but with 2 Warning(s) [in 43 ms]
+[2015.07.30-16.31.29:393][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0010.27] Compile of VehicleBlueprint successful, but with 3 Warning(s) [in 0 ms]
+[2015.07.30-16.31.29:393][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0010.27] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 0 ms]
+[2015.07.30-16.31.29:495][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.07.30-16.31.29:495][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.07.30-16.31.29:503][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0010.38] Compile of VehicleBlueprint successful, but with 2 Warning(s) [in 37 ms]
+[2015.07.30-16.31.29:503][  0]LogBlueprint:Warning: [compiler VehicleBlueprint] Warning [0010.38] Compile of VehicleBlueprint successful, but with 3 Warning(s) [in 0 ms]
+[2015.07.30-16.31.50:683][  0]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:703][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:732][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:733][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:734][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:735][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:736][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:737][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.50:738][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:445][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:445][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:446][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:446][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:446][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:447][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:447][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:447][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:460][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:460][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:466][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:466][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:468][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:468][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:469][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:469][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:470][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:470][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:471][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:471][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:472][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:472][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:473][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:473][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:475][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:475][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:476][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:476][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:477][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:477][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:478][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:478][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:479][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:479][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:481][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:481][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:482][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:482][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:484][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:484][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:486][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:486][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:487][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:487][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:488][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:488][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:489][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:489][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:490][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:490][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:491][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:491][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:492][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:492][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:493][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:493][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:494][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:494][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:494][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:494][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:495][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:495][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:495][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:495][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:496][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:496][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:497][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:497][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:497][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.31.53:497][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.31.53:515][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-16.31.54:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-16.31.54:440][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.073ms to complete.
+[2015.07.30-16.31.54:440][  0]LogFileHelpers: Loading map 'AdvancedVehicleExamplemap' took 26.869
+[2015.07.30-16.31.54:879][  0]LogCollectionManager: Loaded 0 collections in 0.002694 seconds
+[2015.07.30-16.31.54:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 1792 classes and 301 folders.
+[2015.07.30-16.31.55:159][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.30-16.31.55:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.30-16.31.55:813][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.07.30-16.31.56:852][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-16.31.56:898][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.31.56:927][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.30-16.31.57:042][  0]LogLoad: Full Startup: 37.91 seconds (BP compile: 0.68 seconds)
+[2015.07.30-16.31.57:446][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-16.31.57:616][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.07.30-16.31.57:902][  0]LogRenderer: Reallocating scene render targets to support 1048x496 (Frame:2).
+[2015.07.30-16.31.58:044][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.07.30-16.31.58:078][  1]Cmd: UpdateLandscapeEditorData
+[2015.07.30-16.31.58:974][ 10]LogAssetRegistry: Asset discovery search completed in 32.7861 seconds
+[2015.07.30-16.32.02:477][ 70]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.32.02:819][ 75]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-16.32.03:069][ 75]PIE: New page: PIE session: AdvancedVehicleExamplemap (Jul 30, 2015, 10:32:02 PM)
+[2015.07.30-16.32.03:071][ 75]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap
+[2015.07.30-16.32.03:248][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177295s)
+[2015.07.30-16.32.03:248][ 75]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2015.07.30-16.32.03:249][ 75]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2015.07.30-16.32.03:250][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap to /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap (0.179198s)
+[2015.07.30-16.32.03:355][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.30-16.32.03:363][ 75]LogInit: FAudioDevice initialized.
+[2015.07.30-16.32.03:454][ 75]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.07.30-16.32.03:473][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:473][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:474][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:474][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:475][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:475][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:475][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:475][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:476][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:476][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:476][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:476][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:477][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:477][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:478][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:478][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:478][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:478][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:479][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:479][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:479][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:479][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:480][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:480][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:480][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:480][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:481][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:482][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:483][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:484][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:485][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:486][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.03:487][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.03:561][ 75]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap up for play (max tick rate 60) at 2015.07.30-19.32.03
+[2015.07.30-16.32.03:561][ 75]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.32.03:562][ 75]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.32.03:565][ 75]LogWorld: Bringing up level for play took: 0.102420
+[2015.07.30-16.32.03:566][ 75]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap 0.592
+[2015.07.30-16.32.29:102][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F17A016C0
+[2015.07.30-16.32.30:115][790]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-16.32.30:115][790]PIE: New page: PIE session: AdvancedVehicleExamplemap (Jul 30, 2015, 10:32:30 PM)
+[2015.07.30-16.32.30:120][790]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap
+[2015.07.30-16.32.30:233][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112852s)
+[2015.07.30-16.32.30:234][790]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2015.07.30-16.32.30:235][790]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2015.07.30-16.32.30:235][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap to /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap (0.114792s)
+[2015.07.30-16.32.30:267][790]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.30-16.32.30:273][790]LogInit: FAudioDevice initialized.
+[2015.07.30-16.32.30:306][790]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:311][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:312][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:313][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:314][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:315][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.32.30:316][790]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.32.30:380][790]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap up for play (max tick rate 60) at 2015.07.30-19.32.30
+[2015.07.30-16.32.30:380][790]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.32.30:381][790]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.32.30:384][790]LogWorld: Bringing up level for play took: 0.075834
+[2015.07.30-16.32.30:386][790]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap -0.588
+[2015.07.30-16.32.32:093][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F1CE2A520
+[2015.07.30-16.32.41:182][967]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.07:957][425]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.14:157][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.07.30-16.33.14:308][534]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.15:898][534]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.15:968][534]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.16:849][548]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.19:411][596]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.19:510][596]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.19:675][596]LogRenderer: Reallocating scene render targets to support 1048x664 (Frame:2326).
+[2015.07.30-16.33.43:277][997]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.33.48:252][ 91]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.34.09:849][518]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (CarMod_NoAntenna)
+[2015.07.30-16.34.10:932][542]Cmd: DELETE
+[2015.07.30-16.34.10:932][542]Cmd: ACTOR DELETE
+[2015.07.30-16.34.10:963][542]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.07.30-16.34.11:044][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F178A9080
+[2015.07.30-16.34.11:044][542]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2015.07.30-16.34.16:618][657]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.34.17:821][657]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.34.19:071][657]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.07.30-16.34.19:379][657]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-16.34.30:881][852]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-16.34.30:881][852]PIE: New page: PIE session: AdvancedVehicleExamplemap (Jul 30, 2015, 10:34:30 PM)
+[2015.07.30-16.34.30:882][852]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap
+[2015.07.30-16.34.31:128][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.245686s)
+[2015.07.30-16.34.31:129][852]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2015.07.30-16.34.31:130][852]LogPlayLevel: PIE: World Init took: (0.002675s)
+[2015.07.30-16.34.31:131][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap to /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap (0.249056s)
+[2015.07.30-16.34.31:131][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.07.30-16.34.31:173][852]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F797EA340
+[2015.07.30-16.34.31:174][852]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F797EB100
+[2015.07.30-16.34.31:187][852]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.30-16.34.31:194][852]LogInit: FAudioDevice initialized.
+[2015.07.30-16.34.31:228][852]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.07.30-16.34.31:232][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:232][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:232][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:232][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:233][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:234][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:235][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:236][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:237][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:238][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:238][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:238][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.34.31:238][852]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.34.31:300][852]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap up for play (max tick rate 60) at 2015.07.30-19.34.31
+[2015.07.30-16.34.31:300][852]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.34.31:301][852]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.34.31:304][852]LogWorld: Bringing up level for play took: 0.074436
+[2015.07.30-16.34.31:306][852]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap 0.331
+[2015.07.30-16.35.43:051][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F7BBE7560
+[2015.07.30-16.35.48:280][ 59]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.35.52:584][235]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (CarMod_NoAntenna)
+[2015.07.30-16.35.52:607][235]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.35.53:661][279]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (CarMod_NoAntenna)
+[2015.07.30-16.35.54:210][301]LogEditorViewport: Clicking on Actor (LMB): TrackGenerator_C (TrackGenerator2)
+[2015.07.30-16.36.14:441][974]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.36.14:485][974]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.37.13:303][649]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (CarMod_NoAntenna)
+[2015.07.30-16.37.29:543][110]LogMaterial:Warning: Material /Game/Assets/Models/M_Oak.M_Oak needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.30-16.37.29:552][110]LogMaterial: Missing cached shader map for material M_Oak, compiling. 
+[2015.07.30-16.37.29:771][110]LogMaterial: 0.000303 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.07.30-16.37.30:841][137]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.38.00:753][ 37]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (CarMod_NoAntenna)
+[2015.07.30-16.38.01:802][ 71]Cmd: DELETE
+[2015.07.30-16.38.01:802][ 71]Cmd: ACTOR DELETE
+[2015.07.30-16.38.01:824][ 71]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.07.30-16.38.01:824][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.07.30-16.38.01:860][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F179ADEE0
+[2015.07.30-16.38.01:875][ 71]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2015.07.30-16.38.06:998][210]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.38.07:169][210]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.38.07:281][210]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.07.30-16.38.24:755][596]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-16.38.24:756][596]PIE: New page: PIE session: AdvancedVehicleExamplemap (Jul 30, 2015, 10:38:24 PM)
+[2015.07.30-16.38.24:756][596]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap
+[2015.07.30-16.38.25:019][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.262105s)
+[2015.07.30-16.38.25:020][596]LogAIModule: Creating AISystem for world AdvancedVehicleExamplemap
+[2015.07.30-16.38.25:021][596]LogPlayLevel: PIE: World Init took: (0.002398s)
+[2015.07.30-16.38.25:021][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.AdvancedVehicleExamplemap to /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap (0.265173s)
+[2015.07.30-16.38.25:022][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.07.30-16.38.25:071][596]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F7BF34FE0
+[2015.07.30-16.38.25:072][596]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F7BF35440
+[2015.07.30-16.38.25:096][596]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.30-16.38.25:114][596]LogInit: FAudioDevice initialized.
+[2015.07.30-16.38.25:157][596]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.07.30-16.38.25:168][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:168][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:168][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:169][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:169][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:169][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:169][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:169][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:170][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:171][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:172][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:173][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:174][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:175][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:176][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:176][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:176][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:176][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:177][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:178][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:179][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:180][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:180][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:180][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.30-16.38.25:180][596]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.30-16.38.25:257][596]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap up for play (max tick rate 60) at 2015.07.30-19.38.25
+[2015.07.30-16.38.25:257][596]LogActor:Warning: GameSession /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.38.25:258][596]LogActor:Warning: GameNetworkManager /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap.AdvancedVehicleExamplemap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-16.38.25:261][596]LogWorld: Bringing up level for play took: 0.099590
+[2015.07.30-16.38.25:263][596]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_AdvancedVehicleExamplemap 0.289
+[2015.07.30-16.39.35:181][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F7C5DB4C0
+[2015.07.30-16.39.42:939][754]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.39.45:346][754]LogSavePackage: Save=2205.200439ms
+[2015.07.30-16.39.45:346][754]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/AdvancedVehicleExamplemapA7AE37E1493BE7FF810356B6DE193A87.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.umap'
+[2015.07.30-16.41.34:018][223]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.41.36:387][223]LogSavePackage: Save=2228.260742ms
+[2015.07.30-16.41.36:387][223]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/AdvancedVehicleExamplemap8A6EF040476DCB0380CA0FA0A160CE9B.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Maps/AdvancedVehicleExamplemap.umap'
+[2015.07.30-16.41.40:224][291]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.41.41:701][291]LogD3D11RHI: InitD3DDevice
+[2015.07.30-16.41.41:746][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/M_Oak" FILE="../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/Assets/Models/M_Oak.uasset" SILENT=true
+[2015.07.30-16.41.41:806][291]LogSavePackage: Save=29.763012ms
+[2015.07.30-16.41.41:806][291]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/M_Oak5123220249A34C1E933313A850381F8F.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/Assets/Models/M_Oak.uasset'
+[2015.07.30-16.41.41:829][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/MI_Oak" FILE="../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/Assets/Models/MI_Oak.uasset" SILENT=true
+[2015.07.30-16.41.41:875][291]LogSavePackage: Save=15.057220ms
+[2015.07.30-16.41.41:875][291]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/MI_Oak0A8A4637471FFC796676B9934C6AB9EF.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/Assets/Models/MI_Oak.uasset'
+[2015.07.30-16.41.41:929][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Vehicle/CarMod_NoAntenna" FILE="../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Vehicle/CarMod_NoAntenna.uasset" SILENT=true
+[2015.07.30-16.41.41:988][291]LogSavePackage: Save=52.545494ms
+[2015.07.30-16.41.41:989][291]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/CarMod_NoAntenna7674E6F145C81443C6A967BCCFBE3337.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Vehicle/CarMod_NoAntenna.uasset'
+[2015.07.30-16.41.42:076][291]LogSavePackage: Save=12.526608ms
+[2015.07.30-16.41.42:076][291]LogSavePackage: Moving '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Saved/CarPaint_InstBlueBasic32A98A74C41B1506B6156FABCCCE1B59C.tmp' to '../../../../../../Users/N/Documents/GitHub/UnrealNeuroCar/Content/VehicleAdvBP/Vehicle/Materials/CarPaint_InstBlueBasic3.uasset'
+[2015.07.30-16.41.42:555][292]Cmd: QUIT_EDITOR
+[2015.07.30-16.41.43:025][292]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.30-16.41.43:145][292]LogExit: Preparing to exit.
+[2015.07.30-16.41.43:319][292]LogExit: Editor shut down
+[2015.07.30-16.41.43:319][292]LogExit: Transaction tracking system shut down
+[2015.07.30-16.41.43:323][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F1F57CC20
+[2015.07.30-16.41.43:325][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F28C7E480
+[2015.07.30-16.41.43:325][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F12BC1DA0
+[2015.07.30-16.41.43:326][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F17A03740
+[2015.07.30-16.41.43:326][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F1794F380
+[2015.07.30-16.41.43:326][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F1794F600
+[2015.07.30-16.41.43:326][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F7BC72200
+[2015.07.30-16.41.43:460][292]LogExit: Object subsystem successfully closed.
+[2015.07.30-16.41.43:480][292]LogD3D11RHI: Shutdown
+[2015.07.30-16.41.43:480][292]LogD3D11RHI: CleanupD3DDevice
+[2015.07.30-16.41.43:637][292]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.30-16.41.43:654][292]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.07.30-16.41.43:654][292]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.30-16.41.43:654][292]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.30-16.41.43:654][292]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.30-16.41.43:654][292]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.30-16.41.43:670][292]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.30-16.41.43:695][292]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.30-16.41.43:695][292]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.30-16.41.43:714][292]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.30-16.41.43:715][292]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.30-16.41.44:148][292]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.30-16.41.44:149][292]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.30-16.41.44:150][292]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.30-16.41.44:150][292]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.30-16.41.44:251][292]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.30-16.41.44:271][292]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.30-16.41.44:281][292]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.30-16.41.44:282][292]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.30-16.41.44:282][292]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.30-16.41.44:282][292]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.30-16.41.44:285][292]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.30-16.41.44:287][292]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.30-16.41.44:287][292]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.30-16.41.44:387][292]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.30-16.41.44:387][292]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.30-16.41.44:407][292]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.30-16.41.44:407][292]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.30-16.41.44:408][292]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.30-16.41.44:409][292]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.30-16.41.44:409][292]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.30-16.41.44:409][292]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.30-16.41.44:409][292]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.30-16.41.44:416][292]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.30-16.41.44:499][292]LogDerivedDataCache: Shutdown
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.30-16.41.44:499][292]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.30-16.41.44:500][292]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.30-16.41.44:501][292]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.30-16.41.44:501][292]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.30-16.41.44:501][292]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.30-16.41.44:501][292]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.30-16.41.44:501][292]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.30-16.41.44:505][292]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.30-16.41.44:506][292]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.30-16.41.44:507][292]LogExit: Exiting.
+[2015.07.30-16.41.44:510][292]Log file closed, 07/30/15 19:41:44
